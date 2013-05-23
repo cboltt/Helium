@@ -5,7 +5,7 @@
     <name>main</name>
     <message>
         <location filename="../assets/main.qml" line="9"/>
-        <source>Hello World</source>
+        <source>Hello GitHub</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

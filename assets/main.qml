@@ -6,7 +6,7 @@ Page {
     Container {
         layout: DockLayout {}
         Label {
-            text: qsTr("Hello World")
+            text: qsTr("Hello GitHub")
             textStyle.base: SystemDefaults.TextStyles.BigText
             verticalAlignment: VerticalAlignment.Center
             horizontalAlignment: HorizontalAlignment.Center
