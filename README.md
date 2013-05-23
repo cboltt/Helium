@@ -9,3 +9,5 @@ While this project has been in development for many months, I am now just gettin
 Stay tuned for future updates
 
 Hopefully BlackBerry's IDE will play nice.
+
+All the working sets are now all added.
