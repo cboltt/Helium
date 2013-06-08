@@ -1,0 +1,38 @@
+#RSS-feed{
+	margin:0;
+	padding:60px 0 0 0;
+	
+}
+#RSS-feed ul{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+#RSS-feed li{
+	margin:0;
+	padding:10px;
+	min-height:20px;
+	text-decoration:none;
+}
+#RSS-feed li:nth-child(odd){
+	background:#EEE;
+}
+#RSS-feed a{
+	text-decoration:none;
+}
+#RSS-feed h1{
+	margin:10px 0 0 0;
+	padding:0;
+	font:bold 18px Helvetica, Arial, sans-serif;
+	color:#669900;
+}
+.rssdate{
+	font:12px Helvetica, Arial, sans-serif;
+	color:#333;
+	display:block;
+}
+.rssdesc{
+	margin:5px 0 0 0;
+	font:14px Helvetica, Arial, sans-serif;
+	color:#333;
+}

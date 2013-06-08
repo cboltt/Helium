@@ -1,0 +1,131 @@
+html, body{
+	margin:0;
+	padding:0;
+	position:relative;
+	width:100%;
+	height:100%;
+	background:url('../images/retro_intro.png');
+}
+.spacer{
+	margin:10px;
+	width:100px;
+	height:800px;
+	background:blue;
+}
+.clear{
+	clear:both;
+}
+#fixed-container{
+	position:fixed;
+	margin:0;
+	width:100%;
+	z-index : 5;
+}
+#ticker-container{
+	margin:0;
+	padding:0;
+	width:100%;
+	height:auto;
+	background:url('../images/navy_blue.png');
+}
+#ticker-numbers-container{
+	margin:0;
+	padding:3px 0;
+	background:transparent;
+}
+.ticker-text{
+	margin:0;
+	padding:3px;
+	font:18px sans-serif;
+	color:#F9F9F9;
+	text-shadow: 0 0 7px #000;
+	text-align:left;
+}
+#today-weekday{
+		margin:0;
+		padding:0 5px;
+		float:left;
+	}
+#today-date{
+	margin:0;
+	padding:0;
+	float:left;
+}
+#today-blockday{
+	margin:0;
+	padding:0 5px;
+	float:right;
+}
+#ticker-numbers-header{
+	
+}
+#ticker-numbers{
+	margin:0;
+	padding:10px 5px;
+	text-align:center;
+	background:#333;
+	box-shadow:0px 0px 10px #111;
+	/*border-top:3px solid #111;
+	border-bottom:3px solid #111;*/
+}
+	#error-toast{
+		font:24px sans-serif;
+		color:red;
+		z-index:500;
+		text-align:center;
+		position:absolute;
+		
+	}
+	.ticker-block{
+		margin:0 8px;
+		padding:15px 20px;
+		padding:15px 10px;
+		font:64px sans-serif;
+		color:#FFF;
+		text-shadow:0px 0px 3px #007F0E;
+	}
+
+
+/*RESOURCES START*/
+	/*
+	Lime: 				#A4C400; RGB(164, 196, 0)
+
+	Green: 				#60A917; RGB(96, 169, 23)
+	Dark Green:  		#007F0E; RGB(0,127,14)
+
+	Emerald: 			#008A00; RGB(0, 138, 0)
+
+	Teal: 				#00ABA9; RGB(0, 171, 169)
+
+	Cyan: 				#1BA1E2; RGB(27, 161, 226)
+
+	Cobalt: 			#0050EF; RGB(0, 80, 239)
+
+	Indigo: 			#6A00FF; RGB(106, 0, 255)
+
+	Violet: 			#AA00FF; RGB(170, 0, 255)
+
+	Pink: 				#F472D0; RGB(244, 114, 208)
+
+	Magenta: 			#D80073; RGB(216, 0, 115)
+
+	Crimson: 			#A20025; RGB(162, 0, 37)
+
+	Red: 				#E51400; RGB(229, 20, 0)
+
+	Orange: 			#FA6800; RGB(250, 104, 0)
+
+	Amber: 				#F0A30A; RGB(240, 163, 10)
+
+	Yellow: 			#E3C800; RGB(227, 200, 0)
+
+	Brown: 				#825A2C; RGB(130, 90, 44)
+
+	Olive: 				#6D8764; RGB(109, 135, 100)
+
+	Steel:				#647687; RGB(100, 118, 135)
+
+	Mauve: 				#76608A; RGB(118, 96, 138)
+
+	Taupe: 				#87794E; RGB(135, 121, 78)
+	*/
