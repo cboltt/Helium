@@ -18,7 +18,7 @@ console.log("initializing...");
 	
 //====================================================================
 
-	console.log(today_date);
+	console.log(now);
 	
 	function loadTimetable(type, block1, block2, block3, block4){
 		$('#timetable-load').load('res/timetables/timetable-full.html #' + type, function() {
@@ -32,10 +32,10 @@ console.log("initializing...");
 	}
 	function getDataInit(){
 		getData();
-		//setTimeout(function() {
-		//	getDataInit();
-		//	alert("done");
-		//},2000);
+		setTimeout(function() {
+			getDataInit();
+			console.log("updated at " + now);
+		},45000000);
 	}
 	getDataInit();
 console.log("---------------");
