@@ -1,5 +1,3 @@
-
-
 function getData(){
 
 	$.getJSON('res/db/data.json', function(data) {
@@ -11,7 +9,6 @@ function getData(){
 				if(current.type === "10"){
 					$('#error-toast').show();
 					document.getElementById("error-toast").innerHTML = "No School Today";
-					console.log("No School");
 				}else{
 					
 					var block1 = current.block1;
